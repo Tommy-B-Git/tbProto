@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* Without this, the body has excess horizontal scroll when the menu is open */
+    overflow-x: hidden;
+    font-family: 'MuseoSans-100';
+}
+
+
+/* Additional non-critical styles */
+
+h1,
+h3,
+p {
+    max-width: 600px;
+    margin: 0 auto 1em;
+}
+
+code {
+    padding: 2px;
+    background: #ddd;
+}
+
+.splashHedz{
+  font-family: 'MuseoSansDisplay-Black'
+}
+
+
+
