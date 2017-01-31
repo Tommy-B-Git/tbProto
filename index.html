@@ -12,34 +12,52 @@
 </head>
 
 <body>
-    <section class="splash">
-        <div class="content">
-            <h1 class="splashHedz animated fadeInUp">My name is Tom. I'm a designer/developer of wonderful things</h1>
-        </div>
-    </section>
-    <section class="about" data-type="background" data-speed="5">>
-        <div class="content">
-            <h1 class="splashHedz animated fadeInUp">A bit about me.</h1>
-            <div class="aboutContent flexColContent">
-                <div class="aboutLeft">
-                    <p>Stuff here</p>
-                </div>
-                <div class="aboutRight">
-                    <p>Stuff here</p>
+    <header id="layout--header">
+        <nav class="layout--navigation">
+            <ul class="nav nav--menu">
+                <li class="nav--li" data-target="#home"><a href="#home" class="link link--js">Home</a></li>
+                <li class="nav--li" data-target="#me"><a href="#me" class="link link--js">About</a></li>
+                <li class="nav--li" data-target="#projects"><a href="#projects" class="link link--js">Portfolio</a></li>
+                <li class="nav--li" data-target="#skills"><a href="#mySkills" class="link link--js">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="page-wrap">
+        <section id="home" class="splash">
+            <div class="content">
+                <h1 class="splashHedz animated fadeInUp">My name is Tom. I'm a designer/developer of wonderful things</h1>
+            </div>
+        </section>
+        <section id="me" class="about" data-type="background" data-speed="5">
+            <div class="content">
+                <h1 class="splashHedz animated fadeInUp">A bit about me.</h1>
+                <div class="aboutContent flexColContent">
+                    <div class="aboutLeft">
+                        <p>Stuff here</p>
+                    </div>
+                    <div class="aboutRight">
+                        <p>Stuff here</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="work">
-        <div class="content">
-            <h1 class="splashHedz animated fadeInUp">Portfolio.</h1>
-        </div>
-    </section>
-    <footer>
-        <div class="footerContent">
-            <p>footer will go here</p>
-        </div>
-    </footer>
+        </section>
+        <section id="projects" class="work">
+            <div class="content">
+                <h1 class="splashHedz animated fadeInUp">Portfolio.</h1>
+            </div>
+        </section>
+        <section id="mySkills" class="skills">
+            <div class="content">
+                <h1 class="splashHedz animated fadeInUp">Technologies</h1>
+            </div>
+        </section>
+        <footer>
+            <div class="footerContent">
+                <p>footer will go here</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
