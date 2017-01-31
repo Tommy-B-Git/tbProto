@@ -1,39 +1,37 @@
 html,
 body {
-    height: 100%;
-    width: 100%;
-    /* Without this, the body has excess horizontal scroll when the menu is open */
-    overflow-x: hidden;
     font-family: 'MuseoSans-100';
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
 }
 
 
 /* Additional non-critical styles */
 
-h1,
-h3,
-p {
-    max-width: 600px;
-    margin: 0 auto 1em;
-    font-family: 'Queulat-Light'
+
+.splashHedz {
+    /* font-family: 'MuseoSansDisplay-Black'; */
+    font-family: 'Queulat-Bold';
+    font-size: 3.6em;
 }
 
-code {
-    padding: 2px;
-    background: #ddd;
+.splash {
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
 }
 
-.site-wrap{
+.about {
+    background-color: #24ffc3;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    height: 100vh;
+    max-width: 64vw;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
-
-.splashHedz{
-  font-family: 'MuseoSansDisplay-Black'
-}
-
-
-
