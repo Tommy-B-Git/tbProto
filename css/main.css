@@ -1,14 +1,21 @@
 html,
-body {
+body,
+section,
+h1 {
     font-family: 'MuseoSans-100';
     font-size: 1em;
     padding: 0;
     margin: 0;
 }
 
-
-/* Additional non-critical styles */
-
+.content {
+    height: 100vh;
+    max-width: 64vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .splashHedz {
     /* font-family: 'MuseoSansDisplay-Black'; */
@@ -23,14 +30,23 @@ body {
 }
 
 .about {
+    background: url('../img/tom-brown-pattern.jpg') 50% 0 repeat fixed;
+    background-size: 100vw;
     background-color: #24ffc3;
     height: 100vh;
     width: 100vw;
 }
 
-.content {
+.work {
+    background-color: #24ffc3;
     height: 100vh;
-    max-width: 64vw;
+    width: 100vw;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
