@@ -10,8 +10,67 @@
     font-size: 1em;
 }
 
+section{
+    width: 100vw;
+    height: auto;
+    padding: 3%;
+}
 
-/* N A V I G A T I O N __ S T Y L E S */
+
+/* ======= F O N T S ========= */
+
+.mainzHedz {
+    width: 100vw;
+    font-family: 'Queulat-Bold';
+    font-size: 4.4em;
+    padding: 0.3em;
+    max-width: 64vw;
+    min-width: 35vw;
+    margin: 0 auto;
+}
+
+.mainText {
+    font-family: 'Queulat-Medium';
+    font-size: 0.8em;
+    color: #000;
+}
+
+.boldText {
+    font-family: 'Queulat-Medium';
+    font-size: 1.25em;
+    line-height: 1.5;
+    letter-spacing: 0.015em;
+    color: #000;
+}
+
+.weeCaps {
+    font-family: 'MuseoSansDisplay-Black';
+    font-size: 1em;
+    color: #8038eb;
+}
+
+.tinyText {
+    font-family: 'MuseoSansDisplay-Black';
+    font-size: 0.4em;
+    color: #000;
+}
+
+.thinText {
+    font-family: 'MuseoSans-100';
+    text-transform: uppercase;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: #000;
+}
+
+.bigQuote {
+    width: 7vw;
+    align-self: flex-start;
+    margin-bottom: 4vh;
+}
+
+
+/* ========= N A V I G A T I O N __ S T Y L E S ========== */
 
 .layout--navigation {
     height: 0;
@@ -28,7 +87,12 @@
     justify-content: space-between;
     align-items: center;
     width: 28vw;
+}
 
+.navLogo {
+    width: 2.2vw;
+    transform: rotate(90deg)!important;
+    padding: 1%;
 }
 
 .nav li {
@@ -41,13 +105,18 @@
     margin-right: 2px;
     font-family: 'MuseoSansDisplay-Black';
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 0.7em;
+    letter-spacing: 0.09em;
+    font-size: 0.8em;
+    color: #666;
     /* word-spacing: 0.02rem; */
 }
 
 
-/* S T A R T __ O F __ C O N T E N T */
+/* ====== S T A R T __ O F __ C O N T E N T ======= */
+
+.fadeInBlock {
+    opacity:0;
+}
 
 .content {
     height: 100vh;
@@ -56,13 +125,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.splashHedz {
-    /* font-family: 'MuseoSansDisplay-Black'; */
+/* .splashHedz {
+    font-family: 'MuseoSansDisplay-Black';
     font-family: 'Queulat-Bold';
-    font-size: 3.6em;
-}
+    font-size: 4.4em;
+    flex-basis: 64vw;
+    margin: 0 auto;
+    min-width: 32vw;
+} */
 
 .splash {
     background-color: #f1f1f1;
@@ -70,12 +143,72 @@
     width: 100vw;
 }
 
+
+/* A B O U T __ S E C T I O N */
+
+/* #me {
+    width: 100vw;
+    height: auto;
+    padding: 4%;
+} */
+
 .about {
+    background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
     background-size: 100vw;
     background-color: #fff;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-bottom: 15vh;
+    overflow: hidden;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    max-width: 64vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-split-left {
+    flex: 1;
+    padding: 0.4em;
+    align-self: flex-start;
+}
+
+.flex-split-right {
+    flex: 1;
+    padding: 0.4em;
+    align-self: flex-start;
+}
+
+.aboutImg{
+    width: 100%;
+}
+
+.wee-about-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.wee-about-block{
+    margin-bottom: 6%;
+}
+
+
+
+
+/* ====== P O R T F O L I O   S E C T I O N ======= */
 
 .work {
     background-color: #24ffc3;
@@ -83,11 +216,19 @@
     width: 100vw;
 }
 
-.skills{
-    background: url('../img/tom-brown-pattern.jpg') 50% 0 repeat fixed;
-    color: #000;
+
+/* ====== S K I L L S   S E C T I O N ======= */
+
+.skills {
+    background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
+    background-size: 100vw;
+    background-color: #fff;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-bottom: 15vh;
+    overflow: hidden;
 }
 
 footer {
