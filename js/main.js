@@ -34,3 +34,18 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
+
+// F A D E   I N   B L O C K
+
+$(function() {
+    $(window).scroll(function() {
+        $('.fadeInBlock')
+            .each(function() {
+                var imagePos = $(this).offset().top;
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow + 250) {
+                    $(this).animate({ 'opacity': '1' }, 1000);
+                }
+            });
+    });
+});
