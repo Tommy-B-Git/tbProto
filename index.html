@@ -15,40 +15,61 @@
     <header id="layout--header">
         <nav class="layout--navigation">
             <ul class="nav nav--menu">
-                <li class="nav--li" data-target="#home"><a href="#home" class="link link--js">Home</a></li>
-                <li class="nav--li" data-target="#me"><a href="#me" class="link link--js">About</a></li>
-                <li class="nav--li" data-target="#projects"><a href="#projects" class="link link--js">Portfolio</a></li>
                 <li class="nav--li" data-target="#skills"><a href="#mySkills" class="link link--js">Skills</a></li>
+                <li class="nav--li" data-target="#projects"><a href="#projects" class="link link--js">Portfolio</a></li>
+                <li class="nav--li" data-target="#me"><a href="#me" class="link link--js">About</a></li>
+                <li class="nav--li" data-target="#home"><a href="#home" class="link link--js">Home</a></li>
+                <li class="nav--li" data-target="#skills">
+                    <a href="#home" class="link link--js"><img src="img/tb-mark.png" alt="nav-logo" class="navLogo"></a>
+                </li>
             </ul>
         </nav>
     </header>
     <div id="page-wrap">
         <section id="home" class="splash">
             <div class="content">
-                <h1 class="splashHedz animated fadeInUp">My name is Tom. I'm a designer/developer of wonderful things</h1>
+                <h1 class="mainzHedz animated fadeIn">My name is Tom. I'm a designer & developer of wonderful things</h1>
             </div>
         </section>
+        <!-- START OF ABOUT SECTION -->
         <section id="me" class="about" data-type="background" data-speed="5">
-            <div class="content">
-                <h1 class="splashHedz animated fadeInUp">A bit about me.</h1>
-                <div class="aboutContent flexColContent">
-                    <div class="aboutLeft">
-                        <p>Stuff here</p>
+            <!-- <h1 class="mainzHedz">A bit about me.</h1> -->
+            <div class="flex-container">
+                <h1 class="mainzHedz fadeInBlock">A bit about me.</h1>
+                <div class="flex-split-left fadeInBlock">
+                    <img src="img/quote.svg" class="bigQuote">
+                    <p class="boldText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy lollipop. I love pudding I love halvah. Toffee cotton candy sweet icing jujubes. Pudding wafer candy. Carrot cake caramels halvah biscuit gingerbread brownie </p>
+                    <div class="wee-about-sections">
+                        <div class="wee-about-block">
+                            <h3 class="weeCaps">A wee headline</h3>
+                            <p class="thinText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy.</p>
+                            <a href="link.html">Read more</a>
+                        </div>
+                        <div class="wee-about-block">
+                            <h3 class="weeCaps">A wee headline</h3>
+                            <p class="thinText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy.</p>
+                            <a href="link.html">Read more</a>
+                        </div>
                     </div>
-                    <div class="aboutRight">
-                        <p>Stuff here</p>
+                </div>
+                <div class="flex-split-right fadeInBlock">
+                    <div class="flex-split-right-img">
+                        <img src="img/idea-medium.jpg" class="aboutImg">
+                        <img src="img/macbook-medium.jpg" class="aboutImg">
+                        <!-- <img src="img/iphone-small.jpg"> -->
                     </div>
                 </div>
             </div>
         </section>
+        <!-- START OF WORK SECTION -->
         <section id="projects" class="work">
+            <h1 class="mainzHedz">Portfolio.</h1>
             <div class="content">
-                <h1 class="splashHedz animated fadeInUp">Portfolio.</h1>
             </div>
         </section>
         <section id="mySkills" class="skills">
             <div class="content">
-                <h1 class="splashHedz animated fadeInUp">Technologies</h1>
+                <h1 class="mainzHedz">Technologies</h1>
             </div>
         </section>
         <footer>
