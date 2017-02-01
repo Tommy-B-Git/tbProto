@@ -1,0 +1,47 @@
+<!-- <div class="content"> -->
+            <div class="aboutContent flexColContent">
+                <h1 class="mainzHedz">A bit about me.</h1>
+                <div class="aboutLeft">
+                    <p class="aboutQuote">Quote</p>
+                    <p class="aboutText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy lollipop. I love pudding I love halvah. Toffee cotton candy sweet icing jujubes. Pudding wafer candy. Carrot cake caramels halvah biscuit gingerbread brownie </p>
+                </div>
+                <div class="aboutRight">
+                    <img src="img/tb-idea-background.jpg">
+                    <img src="img/macbook-nice.jpg">
+                    <!-- <img src="img/man-tapping-iphone.jpg"> -->
+                </div>
+            </div>
+            <!-- </div> -->
+
+            .flexColContent {
+    width: 100vw;
+    /* max-height: 50vw; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: start;
+}
+
+.aboutLeft {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 42vw;
+    border: 1px solid black;
+    margin-left: 14vw;
+    /* padding: 1%; */
+}
+
+.aboutRight {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 42vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: column;
+}
+
+.aboutRight > img {
+    width: 42vw;
+}
