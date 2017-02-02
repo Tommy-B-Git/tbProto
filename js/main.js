@@ -43,7 +43,7 @@ $(function() {
             .each(function() {
                 var imagePos = $(this).offset().top;
                 var topOfWindow = $(window).scrollTop();
-                if (imagePos < topOfWindow + 250) {
+                if (imagePos < topOfWindow + 660) {
                     $(this).animate({ 'opacity': '1' }, 1000);
                 }
             });
