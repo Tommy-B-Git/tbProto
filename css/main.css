@@ -10,12 +10,11 @@
     font-size: 1em;
 }
 
-section{
+section {
     width: 100vw;
     height: auto;
     padding: 3%;
 }
-
 
 /* ======= F O N T S ========= */
 
@@ -24,9 +23,14 @@ section{
     font-family: 'Queulat-Bold';
     font-size: 4.4em;
     padding: 0.3em;
-    max-width: 64vw;
+    max-width: 76vw;
     min-width: 35vw;
     margin: 0 auto;
+}
+
+.purpHeadz{
+    color: #8038EB;
+    font-family: 'MuseoSansDisplay-Black';
 }
 
 .mainText {
@@ -70,57 +74,16 @@ section{
 }
 
 
-/* ========= N A V I G A T I O N __ S T Y L E S ========== */
-
-.layout--navigation {
-    height: 0;
-    margin: 0;
-}
-
-.nav {
-    transform: rotate(-90deg)!important;
-    background: none;
-    position: fixed;
-    left: -6vw;
-    top: 47vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 28vw;
-}
-
-.navLogo {
-    width: 2.2vw;
-    transform: rotate(90deg)!important;
-    padding: 1%;
-}
-
-.nav li {
-    z-index: 1000;
-    display: inline-block;
-}
-
-.nav li a {
-    text-decoration: none;
-    margin-right: 2px;
-    font-family: 'MuseoSansDisplay-Black';
-    text-transform: uppercase;
-    letter-spacing: 0.09em;
-    font-size: 0.8em;
-    color: #666;
-    /* word-spacing: 0.02rem; */
-}
-
-
 /* ====== S T A R T __ O F __ C O N T E N T ======= */
 
 .fadeInBlock {
-    opacity:0;
+    opacity: 0;
 }
 
 .content {
+    display: flex;
     height: 100vh;
-    max-width: 64vw;
+    max-width: 76vw;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -128,29 +91,18 @@ section{
     flex-wrap: wrap;
 }
 
-/* .splashHedz {
-    font-family: 'MuseoSansDisplay-Black';
-    font-family: 'Queulat-Bold';
-    font-size: 4.4em;
-    flex-basis: 64vw;
-    margin: 0 auto;
-    min-width: 32vw;
-} */
-
 .splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f1f1f1;
     height: 100vh;
     width: 100vw;
+    padding: 0;
 }
 
 
-/* A B O U T __ S E C T I O N */
-
-/* #me {
-    width: 100vw;
-    height: auto;
-    padding: 4%;
-} */
+/* ======== A B O U T __ S E C T I O N =========== */
 
 .about {
     background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
@@ -162,12 +114,13 @@ section{
     /* text-align: center; */
     padding-bottom: 15vh;
     overflow: hidden;
+    padding: 0;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
-    max-width: 64vw;
+    max-width: 76vw;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -190,8 +143,10 @@ section{
     align-self: flex-end;
 }
 
-.aboutImg{
-    width: 100%;
+.aboutImg {
+    width: 90%;
+    padding: 0;
+    margin: 0;
 }
 
 .wee-about-sections {
@@ -201,19 +156,59 @@ section{
     margin-top: 8%;
 }
 
-.wee-about-block{
+.wee-about-block {
     margin-bottom: 6%;
 }
 
 
-
-
 /* ====== P O R T F O L I O   S E C T I O N ======= */
+
+.work h1 {
+    color: #fff;
+}
 
 .work {
     background-color: #24ffc3;
-    height: 100vh;
+    height: auto;
     width: 100vw;
+}
+
+.flex-container-work {
+    display: flex;
+    justify-content: space-between;
+    max-width: 76vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    background-color: #F1F1F1;
+    padding: 0px;
+}
+
+.flex-card-content {
+    display: flex;
+    flex: 1 0 auto;
+    /* We have to add a basis for IE10/11 */
+    flex-direction: column;
+}
+
+.flex-card-content p {
+    flex: 1 0 auto;
+    /* We have to add a basis for IE10/11 */
+}
+
+.flex-card-image img {
+    width: 100%;
 }
 
 
