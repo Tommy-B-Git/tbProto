@@ -7,19 +7,20 @@
     <title>Tom Brown | Home</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/MyFontsWebfontsKit.css">
-    <!-- <link rel="stylesheet" href="css/nav.css" /> -->
+    <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/panels.css">
 </head>
 
 <body>
     <header id="layout--header">
         <nav class="layout--navigation">
             <ul class="nav nav--menu">
-                <li class="nav--li" data-target="#skills"><a href="#mySkills" class="link link--js">Skills</a></li>
-                <li class="nav--li" data-target="#projects"><a href="#projects" class="link link--js">Portfolio</a></li>
-                <li class="nav--li" data-target="#me"><a href="#me" class="link link--js">About</a></li>
-                <li class="nav--li" data-target="#home"><a href="#home" class="link link--js">Home</a></li>
-                <li class="nav--li" data-target="#skills">
+                <li class="nav--li"><a href="#mySkills" class="link link--js navHover">Skills</a></li>
+                <li class="nav--li"><a href="#projects" class="link link--js navHover">Portfolio</a></li>
+                <li class="nav--li"><a href="#me" class="link link--js navHover">About</a></li>
+                <li class="nav--li"><a href="#home" class="link link--js navHover">Home</a></li>
+                <li class="nav--li">
                     <a href="#home" class="link link--js"><img src="img/tb-mark.png" alt="nav-logo" class="navLogo"></a>
                 </li>
             </ul>
@@ -27,56 +28,205 @@
     </header>
     <div id="page-wrap">
         <section id="home" class="splash">
-            <div class="content">
-                <h1 class="mainzHedz animated fadeIn">My name is Tom. I'm a designer & developer of wonderful things</h1>
-            </div>
-        </section>
-        <!-- START OF ABOUT SECTION -->
-        <section id="me" class="about" data-type="background" data-speed="5">
-            <!-- <h1 class="mainzHedz">A bit about me.</h1> -->
             <div class="flex-container">
-                <h1 class="mainzHedz fadeInBlock">A bit about me.</h1>
-                <div class="flex-split-left fadeInBlock">
-                    <img src="img/quote.svg" class="bigQuote">
-                    <p class="boldText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy lollipop. I love pudding I love halvah. Toffee cotton candy sweet icing jujubes. Pudding wafer candy. Carrot cake caramels halvah biscuit gingerbread brownie </p>
-                    <div class="wee-about-sections">
-                        <div class="wee-about-block">
-                            <h3 class="weeCaps">A wee headline</h3>
-                            <p class="thinText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy.</p>
-                            <a href="link.html">Read more</a>
-                        </div>
-                        <div class="wee-about-block">
-                            <h3 class="weeCaps">A wee headline</h3>
-                            <p class="thinText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy.</p>
-                            <a href="link.html">Read more</a>
-                        </div>
+                <!-- <img src="img/round-blue-text.svg" class="coolText"> -->
+                <h1 class="mainzHedz animated fadeIn">My name is Tom. I'm a Web Developer & UI designer of <span class="purpHeadz">simple</span> and <span class="purpHeadz">smart</span> things.</h1>
+            </div>
+    </div>
+    </section>
+    <!-- START OF ABOUT SECTION -->
+    <section id="me" class="about" data-type="background" data-speed="4">
+        <!-- <h1 class="mainzHedz">A bit about me.</h1> -->
+        <div class="flex-container">
+            <h1 class="mainzHedz fadeInBlock">A bit about me.</h1>
+            <div class="flex-split-left fadeInBlock">
+                <img src="img/quote.svg" class="bigQuote">
+                <p class="boldText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy lollipop. I love pudding I love halvah. Toffee cotton candy sweet icing jujubes. Pudding wafer candy. Carrot cake caramels halvah biscuit gingerbread brownie </p>
+                <div class="wee-about-sections">
+                    <div class="wee-about-block">
+                        <h3 class="weeCaps">A wee headline</h3>
+                        <p class="thinText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy.</p>
+                        <a href="link.html">Read more</a>
+                    </div>
+                    <div class="wee-about-block">
+                        <h3 class="weeCaps">A wee headline</h3>
+                        <p class="thinText">I love pastry candy brownie toffee I love cupcake. Jelly jelly beans pastry chocolate candy.</p>
+                        <a href="link.html">Read more</a>
                     </div>
                 </div>
-                <div class="flex-split-right fadeInBlock">
-                    <div class="flex-split-right-img">
-                        <img src="img/idea-medium.jpg" class="aboutImg">
-                        <img src="img/macbook-medium.jpg" class="aboutImg">
-                        <!-- <img src="img/iphone-small.jpg"> -->
-                    </div>
+            </div>
+            <div class="flex-split-right fadeInBlock">
+                <div class="flex-split-right-img">
+                    <img src="img/idea-medium.jpg" class="aboutImg">
+                    <img src="img/macbook-medium.jpg" class="aboutImg">
+                    <!-- <img src="img/iphone-small.jpg"> -->
                 </div>
             </div>
-        </section>
-        <!-- START OF WORK SECTION -->
-        <section id="projects" class="work">
-            <h1 class="mainzHedz">Portfolio.</h1>
-            <div class="content">
-            </div>
-        </section>
-        <section id="mySkills" class="skills">
-            <div class="content">
-                <h1 class="mainzHedz">Technologies</h1>
-            </div>
-        </section>
-        <footer>
-            <div class="footerContent">
-                <p>footer will go here</p>
-            </div>
-        </footer>
+        </div>
+    </section>
+    <!-- START OF WORK SECTION -->
+    <section id="projects" class="work">
+        <div class="flex-container-work">
+            <h1 class="mainzHedz fadeInBlock">Portfolio.</h1>
+            <!-- card list -->
+            <ul class="flex-card-list">
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- P O R T F O L I O   I T E M -->
+                <li class="flex-card-listitem fadeInBlock">
+                    <!-- card module -->
+                    <div class="flex-card">
+                        <!-- image container -->
+                        <div class="flex-card-image">
+                            <img src="./img/sites/gremlins-ui.jpg" />
+                            <!-- content container -->
+                            <div class="flex-card-content">
+                                <h3 class="flex-card-heading">First</h3>
+                                <p>I'm a card and I'm first.</p>
+                                <a href="#" class="flex-card-button">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="mySkills" class="skills">
+        <div class="content">
+            <h1 class="mainzHedz fadeInBlock">Technologies</h1>
+        </div>
+    </section>
+    <footer>
+        <div class="footerContent">
+            <p>footer will go here</p>
+        </div>
+    </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/main.js"></script>
