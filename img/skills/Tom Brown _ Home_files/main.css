@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'MuseoSans-100';
+    font-size: 1em;
+}
+
+section {
+    width: 100vw;
+    height: auto;
+    padding: 3%;
+}
+
+
+/* ======= F O N T S ========= */
+
+.face-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.myFace {
+    width: 12.4%;
+}
+
+.mainzHedz {
+    width: 100vw;
+    /* font-family: 'Queulat-Bold'; */
+    font-family: 'MuseoSansDisplay-Black';
+    font-size: 4.2em;
+    padding: 0.3em;
+    max-width: 76vw;
+    min-width: 35vw;
+    margin: 0 auto;
+    letter-spacing: 0.012em;
+}
+
+.purpHeadz {
+    color: #8038EB;
+    font-family: 'MuseoSansDisplay-Black';
+}
+
+.mainText {
+    font-family: 'Queulat-Medium';
+    font-size: 0.8em;
+    color: #000;
+}
+
+.boldText {
+    font-family: 'Queulat-Medium';
+    font-size: 1.25em;
+    line-height: 1.5;
+    letter-spacing: 0.015em;
+    color: #000;
+}
+
+.weeCaps {
+    font-family: 'MuseoSansDisplay-Black';
+    font-size: 1em;
+    color: #8038eb;
+}
+
+.tinyText {
+    font-family: 'MuseoSansDisplay-Black';
+    font-size: 0.4em;
+    color: #000;
+}
+
+.thinText {
+    font-family: 'MuseoSans-100';
+    text-transform: uppercase;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: #000;
+}
+
+.bigQuote {
+    width: 7vw;
+    align-self: flex-start;
+    margin-bottom: 4vh;
+}
+
+
+/* ====== S T A R T __ O F __ C O N T E N T ======= */
+
+.fadeInBlock {
+    opacity: 0;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    max-width: 76vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+
+
+/* ======== A B O U T __ S E C T I O N =========== */
+
+.about {
+    background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
+    background-size: 100vw;
+    background-color: #fff;
+    height: auto;
+    max-width: 100vw;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* padding-bottom: 15vh; */
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 76vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-split-left {
+    flex: 1;
+    padding: 0.4em;
+    align-self: flex-start;
+}
+
+.flex-split-right {
+    flex: 1;
+    padding: 0.4em;
+    align-self: flex-end;
+}
+
+..flex-split-right-img {
+    width: 100%;
+}
+
+.aboutImg {
+    width: 100%;
+    padding: 4%;
+    margin: 0;
+}
+
+.wee-about-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.wee-about-block {
+    margin-bottom: 6%;
+}
+
+
+/* ====== P O R T F O L I O   S E C T I O N ======= */
+
+.work h1 {
+    color: #fff;
+}
+
+.work {
+    background-color: #24ffc3;
+    height: auto;
+    width: 100vw;
+}
+
+.primary-gradient {
+    background: #1df1eb;
+    background: linear-gradient(to right, #1df1eb 0, #01feb4 100%);
+}
+
+.flex-container-work {
+    display: flex;
+    justify-content: space-between;
+    max-width: 76vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    background-color: #F1F1F1;
+    padding: 0px;
+}
+
+.flex-card-content {
+    display: flex;
+    flex: 1 0 auto;
+    /* We have to add a basis for IE10/11 */
+    flex-direction: column;
+}
+
+.flex-card-content p {
+    flex: 1 0 auto;
+    /* We have to add a basis for IE10/11 */
+}
+
+.flex-card-image img {
+    width: 100%;
+}
+
+
+/* ====== S K I L L S   S E C T I O N ======= */
+
+.skills {
+    background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
+    /* transform:scaleX(-1); */
+    background-size: 100vw;
+    background-color: #fff;
+    height: 100vh;
+    max-width: 100vw;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-bottom: 15vh;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ====== T E C H N O L O G Y   S E C T I O N ======= */
+
+/* .flex-skills{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: ;
+} */
+
+.skill-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.skill-logo {
+    width: 40%;
+}
+
+.skill-heading {
+    font-family: 'Queulat-Medium';
+    font-size: 0.8em;
+    letter-spacing: 0.012em;
+}
