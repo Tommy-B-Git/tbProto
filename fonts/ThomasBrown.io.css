@@ -1,0 +1,76 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3346153, 2017-02-16T12:01:18-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MuseoSans-900Italic by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo-sans/900-italic/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
+ * Licensed pageviews: 500,000
+ * 
+ * Webfont: MuseoSans-100 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo-sans/100/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
+ * Licensed pageviews: 500,000
+ * 
+ * Webfont: MuseoSansDisplay-Black by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo-sans-display/black/
+ * Copyright: Copyright (c) 2013 by Jos Buivenga. All rights reserved.
+ * Licensed pageviews: 500,000
+ * 
+ * Webfont: Queulat-BlackItalic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/queulat/black-italic/
+ * Copyright: Jorge Cisterna
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Queulat-Bold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/queulat/bold/
+ * Copyright: Jorge Cisterna
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Queulat-Medium by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/queulat/medium/
+ * Copyright: Jorge Cisterna
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Queulat-Thin by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/queulat/thin/
+ * Copyright: Jorge Cisterna
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3346153
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/330ee9");
+
+  
+@font-face {font-family: 'MuseoSans-900Italic';src: url('webfonts/330EE9_0_0.eot');src: url('webfonts/330EE9_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_0_0.woff2') format('woff2'),url('webfonts/330EE9_0_0.woff') format('woff'),url('webfonts/330EE9_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'MuseoSans-100';src: url('webfonts/330EE9_1_0.eot');src: url('webfonts/330EE9_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_1_0.woff2') format('woff2'),url('webfonts/330EE9_1_0.woff') format('woff'),url('webfonts/330EE9_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'MuseoSansDisplay-Black';src: url('webfonts/330EE9_2_0.eot');src: url('webfonts/330EE9_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_2_0.woff2') format('woff2'),url('webfonts/330EE9_2_0.woff') format('woff'),url('webfonts/330EE9_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Queulat-BlackItalic';src: url('webfonts/330EE9_3_0.eot');src: url('webfonts/330EE9_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_3_0.woff2') format('woff2'),url('webfonts/330EE9_3_0.woff') format('woff'),url('webfonts/330EE9_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Queulat-Bold';src: url('webfonts/330EE9_4_0.eot');src: url('webfonts/330EE9_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_4_0.woff2') format('woff2'),url('webfonts/330EE9_4_0.woff') format('woff'),url('webfonts/330EE9_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Queulat-Medium';src: url('webfonts/330EE9_5_0.eot');src: url('webfonts/330EE9_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_5_0.woff2') format('woff2'),url('webfonts/330EE9_5_0.woff') format('woff'),url('webfonts/330EE9_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Queulat-Thin';src: url('webfonts/330EE9_6_0.eot');src: url('webfonts/330EE9_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/330EE9_6_0.woff2') format('woff2'),url('webfonts/330EE9_6_0.woff') format('woff'),url('webfonts/330EE9_6_0.ttf') format('truetype');}
+ 
