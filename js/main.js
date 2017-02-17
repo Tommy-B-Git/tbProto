@@ -1,5 +1,3 @@
-// P A R A L L A X
-
 $(function() {
 
     // Cache the Window object
@@ -21,19 +19,20 @@ $(function() {
 
 // S M O O T H   S C R O L L I N G
 
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
     }
+  }
 });
+
+
 
 // F A D E   I N   B L O C K
 
@@ -43,7 +42,7 @@ $(function() {
             .each(function() {
                 var imagePos = $(this).offset().top;
                 var topOfWindow = $(window).scrollTop();
-                if (imagePos < topOfWindow + 660) {
+                if (imagePos < topOfWindow + 1000) {
                     $(this).animate({ 'opacity': '1' }, 1000);
                 }
             });
