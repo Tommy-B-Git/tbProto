@@ -1,7 +1,7 @@
 /* ====== BASIC STYLING ========= */
 
 .flex-card-image {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     position: relative;
     text-align: center;
     cursor: default;
-    background: #fff url(../img/sites/gremlin-green.jpg) no-repeat center center
+    background: #fff url(../img/sites/gremlin-green.jpg) no-repeat center center;
 }
 
 .flex-card-content {

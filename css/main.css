@@ -6,11 +6,16 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: 'MuseoSans-100';
     font-size: 1em;
+    font-family: 'MuseoSans-100';
 }
 
-body{
+body,
+html {
+    height: 100%;
+}
+
+body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -18,11 +23,17 @@ body{
 section {
     width: 100vw;
     height: auto;
-    padding: 3%;
+    padding: 0;
+}
+
+.navLogo {
+    width: 3vw;
+    transform: rotate(90deg)!important;
+    padding: 1%;
 }
 
 
-/* ======= F O N T S ========= */
+/* ======= F A C E   A N D   H E A D I N G S ========= */
 
 .face-container {
     display: flex;
@@ -30,20 +41,66 @@ section {
     align-items: flex-end;
 }
 
-.myFace {
-    width: 12.4%;
+.face-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myFaceItem1 {
+    width: 10%;
+    position: absolute;
+    right: 22%;
+    top: 14%;
+}
+
+.myFaceItem2 {
+    width: 10%;
+    position: absolute;
+    right: 22%;
+    top: 14%;
+    animation: roll 5s linear infinite;
+    /* transform: rotate(180deg); */
+}
+
+li .mailTom {
+    justify-content: center;
+    align-self: center;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: 22%;
+    top: 18%;
+    text-align: center;
+    text-indent: -10000px;
+}
+
+@keyframes roll {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+faceAndHeadlines {
+    position: relative;
 }
 
 .mainzHedz {
     width: 100vw;
-    /* font-family: 'Queulat-Bold'; */
     font-family: 'MuseoSansDisplay-Black';
+    /* font-family: 'MuseoSansDisplay-Black'; */
+    /* font-family: 'HalisGR-Black'; */
     font-size: 4.2em;
-    padding: 0.3em;
+    padding: 0rem 1rem;
     max-width: 76vw;
     min-width: 35vw;
     margin: 0 auto;
     letter-spacing: 0.012em;
+    /* letter-spacing: -0.012em;
+    text-transform: uppercase; */
 }
 
 .purpHeadz {
@@ -57,8 +114,18 @@ section {
     color: #000;
 }
 
+.mainSubber {
+    font-size: 1.4em;
+    padding: 0rem 1rem;
+    max-width: 76vw;
+    font-family: 'MuseoSans-100';
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+
 .boldText {
-    font-family: 'Queulat-Medium';
+    /* font-family: 'Queulat-Thin'; */
+    font-family: 'MuseoSans-100';
     font-size: 1.25em;
     line-height: 1.5;
     letter-spacing: 0.015em;
@@ -78,11 +145,11 @@ section {
 }
 
 .thinText {
-    font-family: 'MuseoSans-100';
-    text-transform: uppercase;
+    font-family: 'Queulat-BlackItalic';
     font-size: 0.8em;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #000;
+    letter-spacing: 0.02em;
 }
 
 .bigQuote {
@@ -116,11 +183,11 @@ section {
     background-color: #f1f1f1;
     height: 100vh;
     width: 100vw;
-    padding: 0;
 }
 
 
 /* ======== A B O U T __ S E C T I O N =========== */
+
 
 /* .about {
     background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
@@ -146,7 +213,7 @@ section {
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 76vw;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -154,8 +221,8 @@ section {
 
 .flex-container > div {
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
-    justify-content: center;
 }
 
 .flex-split-left {
@@ -170,13 +237,13 @@ section {
     align-self: flex-end;
 }
 
-..flex-split-right-img {
+.flex-split-right-img {
     width: 100%;
 }
 
 .aboutImg {
     width: 100%;
-    padding: 4%;
+    padding: 0%;
     margin: 0;
 }
 
@@ -212,8 +279,7 @@ section {
     background-color: #fff;
     height: auto;
     width: 100vw;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
 }
 
 .primary-gradient {
@@ -223,25 +289,29 @@ section {
 
 .flex-container-work {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 76vw;
     margin: 0 auto;
     flex-wrap: wrap;
-    overflow-x: hidden;
 }
 
 .flex-card-list {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.flex-card-listitem {
+    width: 33%;
+    margin-bottom: 5%;
 }
 
 .flex-card {
     display: flex;
     flex-direction: column;
-    margin: 14px;
-    background-color: #F1F1F1;
-    padding: 0px;
 }
 
 .flex-card-content {
@@ -263,20 +333,12 @@ section {
 
 /* ====== S K I L L S   S E C T I O N ======= */
 
-/* .skills {
-    background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
-    background-size: 100vw;
-    background-color: #fff;
-    height: auto;
-    width: 100vw;
-} */
-
 .skills {
-   /*  display: flex;
+    /*  display: flex;
     justify-content: center;
     align-items: center; */
     background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
-    background-size: 100vw;
+    background-size: contain;
     background-color: #fff;
     height: auto;
     width: 100vw;
@@ -323,14 +385,22 @@ section {
 /* ====== F O O T E R   S E C T I O N ======= */
 
 .contact {
-    /* background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed; */
-    /* transform:scaleX(-1); */
-    background-size: 100vw;
-    background-color: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
     height: auto;
     width: 100vw;
-    padding-top: 3%;
+    height: 100vh;
+    padding-top: 0%;
     padding-bottom: 3%;
+}
+
+.contactFlexContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 76vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .contact-content {
@@ -338,9 +408,11 @@ section {
     height: auto;
     max-width: 76vw;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 footer {
@@ -352,9 +424,21 @@ footer {
     align-items: center;
 }
 
+a.mainEmail {
+    font-family: 'MuseoSans-900Italic';
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: #8038EB;
+    padding: 0rem 1rem;
+    margin-top: 0rem;
+}
+
 
 /* .flex-skills{
     display: flex;
     justify-content: flex-start;
     flex-direction: ;
 } */
+
+
+/* ================================ M E D I A   Q U E R I E S ============================== */

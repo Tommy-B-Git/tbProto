@@ -15,10 +15,11 @@
     justify-content: space-between;
     align-items: center;
     width: 28vw;
+    padding-bottom: 3%;
 }
 
 .navLogo {
-    width: 2.2vw;
+    width: 3vw;
     transform: rotate(90deg)!important;
     padding: 1%;
 }
@@ -35,7 +36,7 @@
     text-transform: uppercase;
     letter-spacing: 0.09em;
     font-size: 0.8em;
-    color: #666;
+    color: #000;
     /* word-spacing: 0.02rem; */
     transition: .3s;
     -moz-transition: .3s;
