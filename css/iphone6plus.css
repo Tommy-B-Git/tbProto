@@ -79,21 +79,171 @@
         text-align: center;
         /* text-indent: -10000px; */
     }
+    /* ==================== A B O U T   S E C T I O N ===================== */
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
+        background-size: cover;
+        background-color: #fff;
+        height: auto;
+        width: 100vw;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .flex-container > div {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .bigQuote {
+        width: 8vw;
+        align-self: flex-start;
+        margin-bottom: 2vh;
+    }
+    .flex-split-left {
+        flex: 1;
+        padding: 0%;
+        flex-direction: row;
+    }
+    .flex-split-right {
+        flex: 1;
+        padding: 0%;
+        align-self: center;
+    }
+    .boldText {
+        font-family: 'MuseoSans-100';
+        font-size: 1.25em;
+        line-height: 1.5;
+        letter-spacing: 0.015em;
+        color: #000;
+    }
+    .aboutImg {
+        width: 47%;
+        padding: 1%;
+        margin: 0;
+    }
+    /* ==================== P O R T F O L I O   S E C T I O N ===================== */
+    .work {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        height: auto;
+        width: 100vw;
+        padding-top: 2%;
+    }
+    .flex-container-work {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .flex-card-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .flex-card-listitem {
+        width: 27vw;
+        margin-bottom: 5%;
+        margin-right: 4%;
+    }
+    .flex-card {
+        display: flex;
+        flex-direction: column;
+        width: 126%;
+    }
+    .flex-card-content {
+        display: flex;
+        flex: 1 0 auto;
+        /* We have to add a basis for IE10/11 */
+        flex-direction: column;
+    }
+    .flex-card-content p {
+        flex: 1 0 auto;
+        /* We have to add a basis for IE10/11 */
+    }
+    .flex-card-image img {
+        width: 100%;
+    }
+    a.mainEmail {
+        font-family: 'MuseoSans-900Italic';
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: #8038EB;
+        padding: 0.4rem;
+    }
+    /* ==================== C O N T A C T   S E C T I O N ===================== */
+    .contact {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        height: auto;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+    .contactFlexContainer {
+        display: flex;
+        justify-content: center;
+        max-width: 76vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .contact-content {
+        display: flex;
+        height: auto;
+        max-width: 60vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    a.mainEmail {
+        font-family: 'MuseoSans-900Italic';
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: #8038EB;
+        padding: 0.4rem;
+    }
+    footer {
+        background-color: #000;
+        color: #fff;
+        padding: 1vh 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
     .mainzHedz {
         width: 100vw;
-        font-family: 'Queulat-Bold';
+        font-family: 'MuseoSansDisplay-Black';
         /* font-family: 'MuseoSansDisplay-Black'; */
         /* font-family: 'HalisGR-Black'; */
-        font-size: 5.4em;
-        padding: 0rem;
-        max-width: 66vw;
+        font-size: 5.6em;
+        padding: 2% 8%;
+        max-width: 60vw;
         margin: 0 auto;
         letter-spacing: 0.012em;
-        /* letter-spacing: -0.012em;
-    text-transform: uppercase; */
     }
     .nav {
         transform: rotate(-90deg)!important;
@@ -129,5 +279,105 @@
         top: 30%;
         text-align: center;
         /* text-indent: -10000px; */
+    }
+    /* ==================== A B O U T   S E C T I O N ===================== */
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../img/tom-brown-pattern.jpg) 50% 0 repeat fixed;
+        background-size: cover;
+        background-color: #fff;
+        height: auto;
+        width: 100vw;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .flex-container > div {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .bigQuote {
+        width: 16vw;
+        align-self: flex-start;
+        margin-bottom: 2vh;
+    }
+    .flex-split-left {
+        flex: 1;
+        padding: 0% 6% 0% 6%;
+        flex-direction: row;
+    }
+    .flex-split-right {
+        flex: 1;
+        padding: 5%;
+        align-self: flex-end;
+        flex-direction: row;
+    }
+    .boldText {
+        font-family: 'MuseoSans-100';
+        font-size: 1.25em;
+        line-height: 1.5;
+        letter-spacing: 0.015em;
+        color: #000;
+    }
+    .aboutImg {
+        width: 47%;
+        padding: 1%;
+        margin: 0;
+    }
+    /* ==================== P O R T F O L I O   S E C T I O N ===================== */
+    .flex-container-work {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .flex-card-list {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .flex-card-listitem {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+    .flex-card {
+        display: flex;
+        margin-bottom: 2%;
+        padding: 0px;
+        width: 122%;
+    }
+    .flex-card-content {
+        display: flex;
+        flex: 1 0 auto;
+        /* We have to add a basis for IE10/11 */
+        flex-direction: column;
+    }
+    .flex-card-content p {
+        flex: 1 0 auto;
+        /* We have to add a basis for IE10/11 */
+    }
+    .flex-card-image img {
+        width: 100%;
+    }
+    a.mainEmail {
+        font-family: 'MuseoSans-900Italic';
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: #8038EB;
+        padding: 2% 10%;
     }
 }

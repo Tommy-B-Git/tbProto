@@ -2,13 +2,12 @@
 
 @media only screen and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait) {
     .mainzHedz {
-        width: 100vw;
         font-family: 'MuseoSansDisplay-Black';
         /* font-family: 'MuseoSansDisplay-Black'; */
         /* font-family: 'HalisGR-Black'; */
-        font-size: 6em;
-        padding: 1rem;
-        max-width: 66vw;
+        font-size: 5.6em;
+        padding: 4% 6% 4% 6%;
+        max-width: 60vw;
         margin: 0 auto;
         letter-spacing: 0.012em;
         /* letter-spacing: -0.012em;
@@ -17,8 +16,8 @@
     }
     .mainSubber {
         font-size: 2.3em;
-        padding: 1rem;
-        max-width: 66vw;
+        padding: 0% 6% 0% 6%;
+        max-width: 60vw;
         letter-spacing: 0.012em;
     }
     .nav {
@@ -104,6 +103,13 @@
         flex-direction: column;
         flex-basis: 100%;
     }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
     .bigQuote {
         width: 16vw;
         align-self: flex-start;
@@ -136,7 +142,7 @@
     .flex-container-work {
         display: flex;
         justify-content: center;
-        max-width: 76vw;
+        max-width: 60vw;
         flex-direction: column;
         margin: 0 auto;
     }
@@ -220,13 +226,20 @@
     .contact-content {
         display: flex;
         height: auto;
-        max-width: 76vw;
+        max-width: 60vw;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
         flex-direction: column;
         align-items: flex-start;
+    }
+    a.mainEmail {
+        font-family: 'MuseoSans-900Italic';
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: #8038EB;
+        padding: 0% 6% 0% 9%;
     }
     footer {
         background-color: #000;
@@ -450,7 +463,7 @@
     .contact {
         display: flex;
         justify-content: center;
-        background-color: #f1f1f1;
+        background-color: #fff;
         height: auto;
         width: 100vw;
         height: 100vh;

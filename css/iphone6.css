@@ -122,6 +122,13 @@
         flex-direction: column;
         flex-basis: 100%;
     }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
     .bigQuote {
         width: 8vw;
         align-self: flex-start;
@@ -129,12 +136,12 @@
     }
     .flex-split-left {
         flex: 1;
-        padding: 0% 6% 0% 6%;
+        padding: 0%;
         flex-direction: row;
     }
     .flex-split-right {
         flex: 1;
-        padding: 5%;
+        padding: 0%;
         align-self: center;
     }
     .boldText {
@@ -162,7 +169,7 @@
     .flex-container-work {
         display: flex;
         justify-content: center;
-        max-width: 66vw;
+        max-width: 60vw;
         margin: 0 auto;
         flex-wrap: wrap;
     }
@@ -175,7 +182,7 @@
         margin-top: 2%;
     }
     .flex-card-listitem {
-        width: 29vw;
+        width: 27vw;
         margin-bottom: 5%;
         margin-right: 4%;
     }
@@ -197,12 +204,11 @@
     .flex-card-image img {
         width: 100%;
     }
-
     a.mainEmail {
-    font-family: 'MuseoSans-900Italic';
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-    color: #8038EB;
-    padding: 0.4rem;
-}
+        font-family: 'MuseoSans-900Italic';
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        color: #8038EB;
+        padding: 0.4rem;
+    }
 }
