@@ -4,38 +4,49 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tom Brown | Home</title>
+    <title>ThomasBrown.io</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="fonts/MyFontsWebfontsKit.css">
-    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="fonts/ThomasBrown.io.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/panels.css">
+    <link rel="stylesheet" href="css/iphone5.css">
+    <link rel="stylesheet" href="css/iphone6.css">
+    <link rel="stylesheet" href="css/iphone6plus.css">
 </head>
 
 <body>
     <header id="layout--header">
         <nav class="layout--navigation">
             <ul class="nav nav--menu">
-                <li class="nav--li"><a href="#mySkills" class="link link--js navHover">Skills</a></li>
+                <li class="nav--li"><a href="#myContact" class="link link--js navHover">Contact</a></li>
                 <li class="nav--li"><a href="#projects" class="link link--js navHover">Portfolio</a></li>
                 <li class="nav--li"><a href="#me" class="link link--js navHover">About</a></li>
                 <li class="nav--li"><a href="#home" class="link link--js navHover">Home</a></li>
                 <li class="nav--li">
-                    <a href="#home" class="link link--js"><img src="img/tb-mark.png" alt="nav-logo" class="navLogo"></a>
+                    <a href="#home" class="link link--js"><img src="img/tb-mark.svg" alt="nav-logo" class="navLogo"></a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div id="page-wrap">
-        <section id="home" class="splash">
-            <div class="flex-container">
+    <section id="home" class="splash">
+        <div class="flex-container">
+            <div class="faceAndHeadlines">
                 <div class="face-container">
-                    <img src="img/my-face.png" class="myFace">
+                    <ul class="face-list">
+                        <li><img src="img/my-big-face.svg" class="myFaceItem1"></li>
+                        <li><img src="img/my-big-face-type.svg" class="myFaceItem2"></li>
+                        <li><a href="mailto:tom@thomasbrown.io?Subject=Hello%20Tom" target="_top" class="mailTom">Mailme</a></li>
+                    </ul>
+                    <!-- <img src="img/my-face.png" class="myFace"> -->
                 </div>
-                <h1 class="mainzHedz animated fadeIn">Interesting things happen when the <span class="purpHeadz">creative</span> impulse is cultivated with curiosity, freedom and intensity.</h1>
+                <!-- <h1 class="mainzHedz animated fadeIn">Interesting things happen when the <span class="purpHeadz">creative</span> impulse is cultivated with curiosity, freedom and intensity.</h1> -->
+                <h1 class="mainzHedz animated fadeIn">Hello, my name is Tom.</h1>
+                <h3 class="mainSubber">I'm a front-end developer, UI/UX multidisciplinary designer</h3>
             </div>
-    </div>
+        </div>
     </section>
+    <!-- </div> -->
     <!-- START OF ABOUT SECTION -->
     <section id="me" class="about" data-type="background" data-speed="4">
         <!-- <h1 class="mainzHedz">A bit about me.</h1> -->
@@ -43,7 +54,7 @@
             <h1 class="mainzHedz fadeInBlock">A bit about me.</h1>
             <div class="flex-split-left fadeInBlock animated slideInLeft">
                 <img src="img/quote.svg" class="bigQuote">
-                <p class="boldText">Hello. My name is Tom. I am front end web developer and digital designer. I make well-designed UI's and elegant web applications with a focus on solid user experience (UX). I offer simple, yet thoughtful solutions. I am also a print designer and illustrator. I have a passion for design, concentrating on a user-centered approach, producing simple yet engaging interfaces that meet the goals of any project.</p>
+                <p class="boldText">My name is Tom Brown. I am front-end web developer and digital designer. I make well-designed user interfaces (UI), and elegant web applications with a focus on solid user experience (UX). I offer simple, yet thoughtful solutions. I am also a print designer and illustrator. I have a passion for design, concentrating on a user-centered approach, to produce engaging interfaces that meet the goals of any project.</p>
                 <div class="wee-about-sections">
                     <div class="wee-about-block">
                         <h3 class="weeCaps">A wee headline</h3>
@@ -220,7 +231,7 @@
         </div>
     </section>
     <!-- S K I L L S   S E C T I O N -->
-    <section id="mySkills" class="skills" data-type="background" data-speed="4">
+    <!-- <section id="mySkills" class="skills" data-type="background" data-speed="4">
         <h1 class="mainzHedz fadeInBlock">Technologies</h1>
         <div class="skills-content">
             <div class="skill-logo-container fadeInBlock">
@@ -272,21 +283,24 @@
                 <h3 class="skill-heading">ADOBE PREMIERE</h3>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- C O N T A C T    S E C T I O N -->
-    <section id="mySkills" class="contact">
-        <h1 class="mainzHedz fadeInBlock">Contact me</h1>
-        <div class="contact-content">
-            <p>Content to come...</p>
+    <section id="myContact" class="contact">
+        <div class="contactFlexContainer">
+            <!-- <h1 class="mainzHedz">Want to work with me?</h1> -->
+            <div class="contact-content">
+                <h1 class="mainzHedz">Want to work with me?</h1>
+                <p class="mainSubber">If you have an idea for a project, have questions about my work or just want to say hello - Click on the link below to send an email.</p>
+                <h3><a href="link.html" class="mainEmail">tom@thomasbrown.io</a></h3>
+            </div>
         </div>
     </section>
-    <footer>
+    <!-- <footer>
         <div class="footerContent">
             <p>footer will go here</p>
         </div>
-    </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </footer> -->
+    <script src="js/jquery-3.1.1.js"></script>
     <script src="js/main.js"></script>
 </body>
 
