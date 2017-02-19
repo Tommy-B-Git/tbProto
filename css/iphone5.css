@@ -61,7 +61,7 @@
     }
     .myFaceItem1 {
         width: 18%;
-        5: absolute right: 22%;
+        position: absolute;
         top: 28%;
         right: 18%;
     }
