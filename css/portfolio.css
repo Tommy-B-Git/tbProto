@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 1em;
+    font-family: 'MuseoSans-100';
+}
+
+body,
+html {
+    height: 100vh;
+    background: #1df1eb;
+    background: linear-gradient(to right, #1df1eb 0, #01feb4 100%);
+}
+
+.projectList > li > p {
+    font-family: MuseoSansDisplay-Black;
+    font-size: 0.75rem;
+    text-align: right;
+    margin: 0 14% 4% 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 4%;
+    color: #000;
+    letter-spacing: 0.08em;
+}
+.projectList > li > p:nth-child(even) {
+    font-family: 'MuseoSans-100';
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 0 14% 4% 0;
+    padding-bottom: 4%;
+    color: #000;
+    letter-spacing: 0.08em;
+}
+
+.gremBG{
+    background: url(../img/sites/gremlins/iMac-gremlins.jpg) 50% 0 no-repeat fixed;
+    background-size: contain;
+    height: 72vw;
+}
+
+.lannoBG{
+    background: url(../img/sites/lanno/iMac-lanno.jpg) 50% 0 no-repeat fixed;
+    background-size: contain;
+    height: 72vh;
+}
+
+.rapunzelBG{
+    background: url(../img/sites/rapunzel/iMac-rapunzel.jpg) 50% 0 no-repeat fixed;
+    background-size: contain;
+    height: 72vh;
+}
+
+.portfolio-text {
+    width: 100vw;
+}
+
+.portfolio-text-container {
+    width: 60vw;
+    padding: 6% 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: auto;
+}
+
+.portfolio-devices {
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-devices-container {
+    width: 60vw;
+    padding: 6% 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+}
+
+.portfolio-devices-container > img {
+    margin: 2%;
+}
+
+.portfolio-images {
+    width: 100vw;
+    background-color: #8038EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-images-container {
+    width: 60vw;
+    padding: 6% 0 6% 0;
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: center;
+}
+
+.portfolio-images-container > ul > li > img{
+    width: 45%;
+}
+
+.flex-ul > li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.portfolio-images-container > ul, li {
+    list-style: none;
+}
+
+.projectName {
+    flex-basis: 100%;
+    font-family: 'MuseoSansDisplay-Black';
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+}
+
+.projectList {
+    flex-basis: 20%;
+    list-style: none;
+}
+
+.projectText {
+    flex-basis: 80%;
+    line-height: 1.5;
+    letter-spacing: 0.005rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/* ======================= SLIDER =========================== */
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    padding: 6% 0 3% 0;
+    border-radius: 4px;
+    height: auto;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 400px;
+    background: #ccc;
+    text-align: center;
+    line-height: 350px;
+}
+
+a.control_prev,
+a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.control_prev:hover,
+a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+
+.flex-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 3% 0;
+}
+.view-site-button a{
+    font-family: MuseoSansDisplay-Black;
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.06rem;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.blackIcon > a{
+    color: #000;
+}

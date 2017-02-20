@@ -170,9 +170,21 @@
         /* We have to add a basis for IE10/11 */
         flex-direction: column;
     }
+    /* .flex-card-image {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        cursor: default;
+        background-color: #fff;
+    } */
     .flex-card-content p {
-        flex: 1 0 auto;
+        
         /* We have to add a basis for IE10/11 */
+        height: -6%;
     }
     .flex-card-image img {
         width: 100%;

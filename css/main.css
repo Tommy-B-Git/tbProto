@@ -177,6 +177,8 @@ faceAndHeadlines {
 }
 
 .splash {
+    /* background: url(../img/lego-background.jpg) 50% 0 no-repeat fixed;
+    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,7 +288,7 @@ faceAndHeadlines {
     align-items: center;
     background-size: 100vw;
     background-color: #fff;
-    height: auto;
+    min-height: 100vh;
     width: 100vw;
     padding-top: 2%;
 }
